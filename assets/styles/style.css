@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: rgb(13, 13, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: beige;
+    padding: 10px;
+    width: 60vw;
+    height: 75vh;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4px 7px 10px black;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+.taskmanager {
+    height: 80%;
+    padding: 20px;
+    width: 100%;
+}
+
+.tasks {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tasks h3 {
+    margin-right: 39px ;
+}
+
+
+.tableCreation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+input {
+    background-color: gray;
+    color: black;
+    width: 80%;
+    gap: 2px;
+    cursor: text;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
