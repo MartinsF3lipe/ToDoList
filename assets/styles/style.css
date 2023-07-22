@@ -37,7 +37,7 @@ body {
     text-align: center;
 }
 
-.taskmanager {
+#taskmanager {
     height: 80%;
     padding: 20px;
     width: 100%;
@@ -48,6 +48,7 @@ body {
     width: 100%;
     justify-content: flex-end;
     align-items: center;
+    border-radius: 20px;
 }
 
 .tasks h3 {
@@ -86,4 +87,9 @@ button {
     align-items: center;
     cursor: pointer;
     justify-content: center;
+}
+
+.completeTasks {
+    text-decoration: line-through;
+    background-color: rgba(128, 128, 128, 0.346);
 }
