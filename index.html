@@ -10,33 +10,19 @@
 </head>
 <body>
     <div class="container">
+
         <div class="header">
             <h1>ToDoList</h1>
         </div>
-        <div id="taskmanager">
-            <div class="tasks">
-                <h3>Teste</h3>
-                <button id="completeTask">
-                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                </button>
-                <button id="deleteTask">
-                    <ion-icon name="close-circle-sharp"></ion-icon>
-                </button>
-            </div>
-            <div class="tasks">
-                <h3>Test</h3>
-                <button id="completeTask">
-                    <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                </button>
-                <button id="deleteTask">
-                    <ion-icon name="close-circle-sharp"></ion-icon>
-                </button>
-            </div>
+
+        <div class="taskManager">
+            <ul id="ToDoList">
+            </ul>
         </div>
 
         <div class="tableCreation">
             <input type="text" placeholder="Digite Sua tarefa..." id="inputTask">
-            <button id="addtask">
+            <button id="btnAddTask">
                 <ion-icon name="add-circle-sharp"></ion-icon>
             </button>
         </div>
